@@ -1,0 +1,20 @@
+.formContainer {
+  background-image: url(https://images.pexels.com/photos/1398760/pexels-photo-1398760.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  max-width: 790px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  gap: 0.5rem;
+}

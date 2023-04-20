@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+
+  img {
+    height: 90px;
+    width: 90px;
+    aspect-ratio: 1;
+  }
+
+  .description {
+    flex: 1;
+    color: #334680;
+
+    .business {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .title {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+    }
+
+    .infos {
+      display: flex;
+      margin-top: 0.4rem;
+    }
+
+    .contractTime {
+      font-size: 0.75rem;
+      font-family: "Roboto", sans-serif;
+      border: 2px solid #334680;
+      padding: 0.25rem 8px;
+      border-radius: 0.25rem;
+    }
+
+    .jobAttributes {
+      display: flex;
+      gap: 1rem;
+      margin-left: auto;
+      max-width: max-content;
+
+      .jobAttribute {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.75rem;
+        color: #b9bdcf;
+      }
+    }
+  }
+}

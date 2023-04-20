@@ -1,0 +1,6 @@
+.container {
+  display: grid;
+  gap: 2rem;
+  overflow-y: scroll;
+  max-height: calc(100vh - 368px);
+}
